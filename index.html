@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <h2>Julz Soriano</h2>
+            <h2>JavaConverter</h2>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <h3>Weight Converter</h3>
+                <input type="number" id="grams" name="grams" placeholder="Grams" onkeyup="Grams();"><br>
+                <input type="number" id="kilograms" name="kilograms" placeholder="KiloGrams" onkeyup="Kilograms();"><br>
+                <input type="number" id="milligrams" name="milligrams" placeholder="MilliGrams" onkeyup="Milligrams();"><br>
+                <input type="number" id="ounces" name="ounces" placeholder="Ounces" onkeyup="Ounce();"><br>
+                <input type="number" id="carrats" name="carrats" placeholder="Carrats" onkeyup="Carrats();"><br>
+                <button id="reset" onclick="reset();">Reset</button>
+            </div>
+        
+
+            <div class="box">
+                <h3>Length Converter</h3>
+                <input type="number" id="meter" name="meter" placeholder="Meter" onkeyup="Meter();"><br>
+                <input type="number" id="kilometer" name="kilometer" placeholder="KiloMeter" onkeyup="Kilometer();"><br>
+                <input type="number" id="decimeter" name="decimeter" placeholder="Decimeter" onkeyup="Decimeter();"><br>
+                <input type="number" id="centimeter" name="centimeter" placeholder="Centimeter" onkeyup="Centimeter();"><br>
+                <input type="number" id="millimeter" name="millimeter" placeholder="Millimeter" onkeyup="Millimeter();"><br>
+                <button id="reset" onclick="reset1();">Reset</button>
+            </div>
+
+            <div class="box">
+                <h3>Temperature Converter</h3>
+                <input type="number" id="celsius" name="celsius" placeholder="Celsius" onkeyup="Celsius();"><br>
+                <input type="number" id="kelvin" name="kelvin" placeholder="Kelvin" onkeyup="Kelvin();"><br>
+                <input type="number" id="fahrenheit" name="fahrenheit" placeholder="Fahrenheit" onkeyup="Fahrenheit();"><br>
+                <button id="reset" onclick="reset2();">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark-subtle p-1">
+        <footer class="text-center">
+            <p> <b>KodeGo Bootcamp</b><br> 
+                Web Development Batch 52<br>
+                Activity 8 - <a href="#">HTML</a> | <a href="#">CSS</a> | <a href="#">Bootstrap</a> | <a href="#">JS</a><br>
+                <i>All Rights reserved 2023</i>
+            </p>
+        </footer>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
